@@ -1,0 +1,98 @@
+Body{
+font-family: Times, Times New Roman, serif;
+font-size: 1em;
+background-color: white;
+}
+
+#principal{
+	background-image: url(assets/back.jpg);
+	height: 1470px;
+}
+
+
+#logo{
+	width: 194.3vh;
+	height: 7.3vh;
+}
+
+#logo img{
+	width: 194.3vh;
+	height: 7.3vh;
+}
+
+#menu{
+	position: relative;
+	top: 5px;
+	width: 49.3vh;
+	height: 7.3vh;
+}
+
+
+ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 0 11px;
+	position: relative;
+	left: 725px;
+	top: 6px;
+	font-size: 1.3em;
+	cursor: pointer;
+	border-radius: 5px;
+	border: 1px black solid;
+	background-color: white;
+
+
+}
+
+ul li:hover {
+	background-color: orange;
+	color: yellow;
+	font-weight: bold;
+}
+
+#trabalhos{
+	min-height: 900px;
+	min-width: 900px;
+}
+
+.container1{
+	display: flex;
+	width: 75%;
+	position: relative;
+	top: 1px;
+	left: 280px;
+	border: 1px white solid;
+}
+
+.container2{
+	display: flex;
+	width: 75%;
+	position: relative;
+	left: 280px;
+	top: -115px;
+}
+
+.espaco{
+	width: 45vh;
+	margin: 10px;
+	height: 60vh;
+	background-image: url(assets/Comprar.png) no-repeat bottom;
+}
+
+.espaco img{
+	height: 80%;
+}
+
+
+
+.s2:hover{
+	border-radius: 8px;
+	border: 5px solid red;
+	cursor: pointer;
+}
+
+.s1:hover{
+	border-radius: 8px;
+	border: 5px solid red;
+	cursor: pointer;
+}7
